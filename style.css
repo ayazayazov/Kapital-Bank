@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #E5526A;
+    color: white;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+main{
+    padding: 60px 20px 20px 20px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar{
+    margin-right: 10px;
+}
+.navbar-container{
+    display: flex;
+    gap: 18px;
+}
+.logo img{
+    width: 250px;
+}
+
+.welcome{
+    display: flex;
+}
+
+.welcome-text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 40px 0 40px 40px;
+    flex: 4;
+
+}
+.welcome-img{
+    flex: 1;
+}
+.order-button{
+    background-color:#E5526A;
+    border-radius: 10px;
+    border: solid 0;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: white;
+    width: 200px;
+    cursor: pointer;
+}
+h1{
+    font-size: 50px;
+    color: #c50034;
+}
+
+.card-board{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f9fafb;
+    border-radius: 10px;
+    padding: 50px;
+    gap: 50px;
+    margin-bottom: 60px;
+
+}
+.card{
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    padding: 15px
+}
+.card img{
+    height: 50px;
+    margin: 20px;
+}
+.card-info{
+    display: flex;
+    padding-left: 50px;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.card-info-tite{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-info-tite h2{
+    font-size: 40px;
+}
+.card-info-tite p{
+    font-size: 18px;
+}
+
+.card-logo img{
+    height: 400px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+
+}
+li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+li span{
+    color: #E5526A;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-info-btn{
+    background-color:#E5526A;
+    border-radius: 10px;
+    border: solid 0;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: white;
+    width: 200px;
+    cursor: pointer;
+}
